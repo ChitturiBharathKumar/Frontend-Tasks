@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    border: 2px solid black;
+    grid-template-areas: 
+    "head head head head head"
+    "nav nav nav nav nav"
+    "ls main main main rs"
+    "foot foot foot foot foot"
+    ;
+    gap: 5px;
+    grid-template-rows: 100px 100px 500px 100px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Caveat", cursive;
+}
+.header{
+    background-color: blueviolet;
+    grid-area: head;
+}
+.navbar{
+    background-color: seagreen;
+    grid-area: nav;
+}
+.lSide{
+    background-color: burlywood;
+    grid-area: ls;
+}
+.main{
+    background-color: orange;
+    grid-area: main;
+}
+.rSide{
+    background-color: burlywood;
+    grid-area: rs;
+}
+.footer{
+    background-color: blueviolet;
+    grid-area: foot;
+}
