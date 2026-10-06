@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <style>
+        body {
+        min-height: 100vh;
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("https://wallpaper.forfun.com/fetch/a5/a53c5d706c9f9a30ff47f5a3f7eaad2f.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+      }
+        header {
+        text-align: center;
+        background-color: #659287;
+        color: #fffdf0;
+      }
+      a {
+        text-decoration: none;
+        color: #e6f2dd;
+        font-weight: 600;
+      }
+      h2 {
+        text-align: center;
+        color: #FFF78D;
+      }
+      table{
+        background-color: #FFE5BF;
+        text-align: center;
+        color: black;
+        height: auto;
+        width: 800px;
+        
+      }
+      th{
+        background-color: #659287;
+        color: #fffdf0;
+      }
+      p{
+        text-align: center;
+      }
+      #reservation-form{
+        text-align: center;
+        background-color: #ffe5bf;
+        color: black;
+      }
+      #left-align{
+        text-align: left;
+        color: #0A2947;
+      }
+      label{
+        font-weight: bolder;
+      }
+      .button1{
+         background-color: brown
+         ;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Brew & Bite 60 Cafe ☕</h1>
+      <p>Where Coffee Meets Conversation</p>
+      <nav>
+        <a href="index.html">Home</a> &nbsp;
+        <a href="about.html">About</a> &nbsp;
+        <a href="reservation.html">Reservation</a> &nbsp;
+        <a href="menu.html">Menu</a>
+      </nav>
+    </header>
+    <hr>
+    <h2>Upcoming Events 🎉</h2>
+      <table border="1" cellspacing="0" align="center">
+        <tr>
+            <th colspan="4">Upcoming Events</th>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Music</td>
+            <td>Live Music Night</td>
+            <td>10 July 2026</td>
+            <td>7 PM</td>
+        </tr>
+        <tr>
+            <td>Acoustic Evening</td>
+            <td>18 July 2026</td>
+            <td>8 PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Workshops</td>
+            <td>Coffee Workshop</td>
+            <td>15 July 2026</td>
+            <td>5 PM</td>
+        </tr>
+        <tr>
+            <td>Desert Festival</td>
+            <td>20 July 2026</td>
+            <td>6 PM</td>
+        </tr>
+      </table>
+      <hr>
+      <h2>Reserve Your Table 🍽️</h2>
+      <p>Fill in the details and reserve your favourite spot.</p>
+      <hr>
+      <section id="reservation-form">
+        <h2 id="left-align">Reservation Form</h2>
+      <form>
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter your name"/><br><br>
+        <label>Email</label><br>
+        <input type="email" placeholder="Enter email"> <br><br>
+        <label>Phone Number</label> <br>
+        <input type="number" placeholder="Enter mobile number"> <br><br>
+        <label>Reservation Date</label> <br>
+        <input type="date"> <br><br>
+        <label>Reservation Time</label> <br>
+        <input type="time"> <br><br>
+        <label>Number of Guests</label> <br>
+        <input type="number" min="1" max="10" value="2" step="1"> <br><br>
+        <label>Occasion</label> <br>
+        <input type="radio" name="reservation">Birthday <br>
+        <input type="radio" name="reservation">Anniversary <br>
+        <input type="radio" name="reservation">Casual Visit <br><br>
+        <label>Food Preference</label> <br>
+        <input type="checkbox">Vegetarian <br>
+        <input type="checkbox">Non - Vegetarian <br>
+        <input type="checkbox">Vegan <br><br>
+        <label>City</label> <br>
+        <input type="text"> <br><br>
+        <label>Special Request</label> <br>
+        <textarea name="special Request" rows="7" cols="30"></textarea><br><br>
+        <input type="submit" class="button1">&nbsp;
+        <input type="reset" class="button1">
+      </form>
+      </section>
+      
+      <hr>
+
+
+
+
+    <div id="contact">
+      <h2>Contact Us 📍</h2>
+      <p>
+        Email: Pavan@brewbite.com <br /><br />
+        Phone: +91 9848033220 <br /><br />
+        Address: JNTU College, Hyderabad <br /><br />
+        &copy; 2026 Brew & Bite 60 Cafe. All Rights Reserved.
+      </p>
+    </div>
+</body>
+</html>
